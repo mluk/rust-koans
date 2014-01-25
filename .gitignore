@@ -2,3 +2,6 @@ build/
 *.sw[po]
 .rustkoans
 .DS_Store
+
+*.sublime-project
+*.sublime-workspace
