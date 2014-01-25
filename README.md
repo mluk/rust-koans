@@ -15,7 +15,7 @@ Working through the Koans
 -------------------------
 You will work through the koans by running the tests for a given set of problems, then you set about fixing the problems reported by the tests. The Makefile is setup to help you run the tests for a specific file, like so:
 ```
-$ make ARG=about_arrays
+$ make ARGS=about_arrays
 ```
 However if you prefer you may build and run the tests yourself with the following:
 ```
