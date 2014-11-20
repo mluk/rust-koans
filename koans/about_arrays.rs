@@ -6,17 +6,17 @@ fn test_we_can_get_item_from_array() {
 
 #[test]
 fn test_we_add_a_new_item_to_an_array() {
-    let mut foo = ~[];
+    let box foo = [];
     // Add new items to the array/vector
     assert!(foo.len() == 4);
 }
 
 #[test]
 fn test_we_can_pop_items_from_list() {
-    let mut foo = ~["a", "b", "c"];
+    let box foo = ["a", "b", "c"];
     // Pop items from the list
     assert!(foo.len() == 2);
-    assert!(~["a", "b"] == foo);
+    assert!(box ["a", "b"] == foo);
 }
 
 #[test]
