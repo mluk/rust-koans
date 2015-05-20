@@ -2,6 +2,7 @@ build/
 *.sw[po]
 .rustkoans
 .DS_Store
+.idea/
 
 *.sublime-project
 *.sublime-workspace
